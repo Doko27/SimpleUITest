@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="243" id="Y1j-db-E5W">
+            <rect key="frame" x="0.0" y="0.0" width="410" height="243"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Y1j-db-E5W" id="4iq-1g-JJV">
+                <rect key="frame" x="0.0" y="0.0" width="410" height="243"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_home_cover" translatesAutoresizingMaskIntoConstraints="NO" id="ay6-Di-13K">
+                        <rect key="frame" x="0.0" y="0.0" width="410" height="243"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ay6-Di-13K" firstAttribute="leading" secondItem="4iq-1g-JJV" secondAttribute="leading" id="10d-Cx-t9L"/>
+                    <constraint firstAttribute="trailing" secondItem="ay6-Di-13K" secondAttribute="trailing" id="EoN-EU-g5a"/>
+                    <constraint firstItem="ay6-Di-13K" firstAttribute="top" secondItem="4iq-1g-JJV" secondAttribute="top" id="UgA-ji-G4w"/>
+                    <constraint firstAttribute="bottom" secondItem="ay6-Di-13K" secondAttribute="bottom" id="uW8-CP-sOX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="215.94202898550725" y="110.15625"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_home_cover" width="180" height="95"/>
+    </resources>
+</document>
